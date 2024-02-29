@@ -31,7 +31,7 @@ jobs:
       - name: Build and push the image
         run: |
           cd ciphers_project
-          docker login --username marvellinusvincent --password${{secret.ACCESS_TOKEN}} gchr.io
+          docker login --username marvellinusvincent --password${{secrets.ACCESS_TOKEN}} gchr.io
           docker build -t ghcr.io/marvellinusvincent/ciphers-service:latest --file Dockerfile .
           docker push ghcr.io/marvellinusvincent/ciphers-service:latest
         
