@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-i_^&dj1jj%+(xr1oqdhy_$y-a(+_!f3x)_k@_9tlmbxb1-7yxj
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["ciphers-service-marvellinusvincent.onrender.com"]
+ALLOWED_HOSTS = ["ciphers-service-marvellinusvincent.onrender.com", "https://marvellinusvincent.github.io"]
 
 
 # Application definition
@@ -129,5 +129,9 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 CORS_ALLOWED_ORIGINS = [
     "https://marvellinusvincent.github.io",
-    "https://localhost:3000"
+    "https://localhost:3000",
+    "https://localhost:8000",
+    "https://localhost:8080",
+    "https://localhost:9000",
+    "https://localhost:9090"
 ]
