@@ -133,5 +133,9 @@ CORS_ALLOWED_ORIGINS = [
     "https://localhost:8000",
     "https://localhost:8080",
     "https://localhost:9000",
-    "https://localhost:9090"
+    "https://localhost:9090",
+    "https://localhost:8085",
+    "https://localhost:4006",
+    "https://localhost:4004",
+    "https://localhost:4000"
 ]
